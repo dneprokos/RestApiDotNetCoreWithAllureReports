@@ -1,0 +1,2 @@
+﻿1) docker build  -t  dneprokos/api-tests .
+2) docker run --rm -it -p 9999:9999 dneprokos/api-tests
