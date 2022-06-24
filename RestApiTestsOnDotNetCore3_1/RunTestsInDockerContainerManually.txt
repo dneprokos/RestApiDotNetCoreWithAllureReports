@@ -1,6 +1,2 @@
 ﻿1) docker build  -t  dneprokos/api-tests .
-2) docker run --rm -it -p 9999:9999 dneprokos/api-tests sh
-3) dotnet test RestApiTestsOnDotNetCore3_1 -s "./RestApiTestsOnDotNetCore3_1/env.runsettings"
-4) RestApiTestsOnDotNetCore3_1
-5) allure generate "/app/RestApiTestsOnDotNetCore3_1/bin/Debug/netcoreapp3.1/allure-results" --clean
-6) allure open "allure-report" --port 9999
+2) docker run --rm -it -p 9999:9999 dneprokos/api-tests
