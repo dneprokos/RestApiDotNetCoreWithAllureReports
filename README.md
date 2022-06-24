@@ -40,4 +40,15 @@ Rest API tests on .Core 3.1 with Allure reports in Docker file
 In general it generates allure-report folder
 Than it creates and run docker container with Alure server copying allure-result and running it
 
+### Bonus - Running all in docker container
+
+1. In root solution directory, build docker container with a command "docker build  -t  dneprokos/api-tests ."
+2. Run docker container "docker run --rm -it -p 9999:9999 dneprokos/api-tests"
+
+![image](https://user-images.githubusercontent.com/8307892/175618526-364f21ba-fbe7-4de5-b502-7b2aeb60a436.png)
+
+
+
+
+
 
